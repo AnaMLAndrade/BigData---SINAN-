@@ -1,16 +1,16 @@
 # SINAN-VIOL-ANALISE
 
-#SINAN
-SINAN - O Sistema de Informação de Agravos de Notificação - Sinan é alimentado, principalmente, pela notificação e investigação de casos de doenças e agravos que constam da lista nacional de doenças de notificação compulsória (Portaria de Consolidação nº 4, de 28 de Setembro de 2017, Anexo), mas é facultado a estados e municípios incluir outros problemas de saúde importantes em sua região, difilobotríase no município de São Paulo. Sua utilização efetiva permite a realização do diagnóstico dinâmico da ocorrência de um evento na população, podendo fornecer subsídios para explicações causais dos agravos de notificação compulsória, além de vir a indicar riscos aos quais as pessoas estão sujeitas, contribuindo assim, para a identificação da realidade epidemiológica de determinada área geográfica.
+<h2>SINAN<\h2>
+O Sistema de Informação de Agravos de Notificação - Sinan é alimentado, principalmente, pela notificação e investigação de casos de doenças e agravos que constam da lista nacional de doenças de notificação compulsória (Portaria de Consolidação nº 4, de 28 de Setembro de 2017, Anexo), mas é facultado a estados e municípios incluir outros problemas de saúde importantes em sua região, difilobotríase no município de São Paulo. Sua utilização efetiva permite a realização do diagnóstico dinâmico da ocorrência de um evento na população, podendo fornecer subsídios para explicações causais dos agravos de notificação compulsória, além de vir a indicar riscos aos quais as pessoas estão sujeitas, contribuindo assim, para a identificação da realidade epidemiológica de determinada área geográfica.
 
-#Sistema de Vigilância de Violências e Acidentes (Viva)
+<h2>Sistema de Vigilância de Violências e Acidentes (Viva)<\h2>
 O Sistema de Vigilância de Violências e Acidentes (Viva) foi estabelecido pelo Ministério da Saúde em 2006, através da Portaria MS/GM nº 1.356, e é composto por dois componentes principais:
 
 Vigilância de Violência Interpessoal e Autoprovocada (Viva/Sinan): Este componente monitora casos de violência interpessoal e autoprovocada por meio do Sistema de Informação de Agravos de Notificação (Sinan).
 Vigilância de Violências e Acidentes em Unidades Sentinela de Urgência e Emergência (Viva Inquérito): Este componente coleta dados em unidades de urgência e emergência para descrever o perfil das vítimas de violência e acidentes, identificar fatores de risco e propor medidas de prevenção.
 
 
-#Dicionário de Dados
+<h2>Dicionário de Dados<\h2>
 
 'TP_NOT' - Varchar2(1) Categoria: 1 – Negativa, 2 – Individual, 3 – Surto e 4 – Agregado. Descrição:Identifica o tipo da notificaçação. Campo obrigatório.
 'ID_AGRAVO' - Varchar2(4). Categoria:Tabela de agravos do sistema com códigos (classificação internacional de doenças –CID 10) e nomes dos agravos classificados como notificação compulsória ( nacional, estadual ou municipal) e as síndromes ( febrehemorragia aguda;respiratória aguda; diarréia aguda; sanguinolenta;neurológica aguda; insuficiência renal aguda; outras síndromes. Descrição:Nome e código do agravo notificado segundo CID-10 (Centro Colaborador da OMS para a Classificação de Doenças em Português). Campo Chave: Preenchendo o código, a descrição é preenchida automaticamente, e vice�versa; Ao exportar, é retirado o ponto.
